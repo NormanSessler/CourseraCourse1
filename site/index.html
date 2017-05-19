@@ -1,9 +1,188 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
 <head>
-	<title>Hello Norman</title>
+    <meta charset="utf-8">
+    <title>HTML is Structure Only (After)</title>
 </head>
+
 <body>
-	<h1>Hello Norman! What a great course</h1>
+    <h1 style="color: green; font-size: 60px; text-align: center;">HTML is Structure Only</h1>
+    <p style="margin: 0 100px 0 200px; font-size: 1.5em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae temporibus esse suscipit nisi ad.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloribus eos perspiciatis.</p>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1>Don't be afraid to be &lt;then a 100% success:</h1>
+    <p>
+        <img src="picture-with-quote.jpg" width="400" height="235" alt="Picture with a quote">
+        <div>&quot;It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.&quot;</div>
+    </p>
+    <p>
+        <img src="http://lorempixel.com/output/nature-q-c-640-480-1.jpg" width="640" height="480">
+    </p>
+    <p>Theodore Roosevelt 1910 &copy; Copyright</p>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1 id="top">Links to Sections of The Same Page</h1>
+    <section>
+        <ul>
+            <!-- Link to every section in the page -->
+            <li><a href="#section1">#section1</a></li>
+            <li><a href="#section2">#section2</a></li>
+        </ul>
+    </section>
+    <section id="section1">
+        <h3>(#section1) Section 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dignissimos aut quasi quibusdam aspernatur possimus officia nulla consectetur velit! At, asperiores dolorem. Et iure assumenda, repudiandae laudantium, voluptatibus ex dignissimos, eum quaerat ducimus cupiditate corporis totam. Illo, alias voluptatem accusamus ut natus consequuntur quis laboriosam doloribus porro vero assumenda quo temporibus quos quam quisquam, libero quod, itaque eius sit ducimus totam iste possimus architecto debitis? Commodi ut minima maiores consequuntur voluptates unde deleniti error vero tempora, eligendi blanditiis, deserunt aliquam nobis porro dolores tenetur amet eius! Aspernatur, vitae. Suscipit, dolores quos doloribus. Velit repudiandae provident a, in ad id aspernatur dolor ratione eos placeat, ex temporibus ipsum eligendi sequi reprehenderit cupiditate perferendis eaque, explicabo blanditiis nemo dolorem aperiam minima deleniti. </p>
+    </section>
+    <section id="section2">
+        <h3>(#section2) Section 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus debitis voluptatibus facere repellat deserunt sint, beatae optio cupiditate cumque explicabo sapiente, tenetur, minima ipsa quasi obcaecati ipsam praesentium tempore. Quam doloribus praesentium, ea quos vitae officiis nesciunt asperiores quasi quas explicabo cupiditate recusandae sed dolorum quia. Error delectus consequatur, eos repudiandae cupiditate at quis! Doloremque voluptates itaque nam aut ullam voluptas eos consequatur provident doloribus numquam ex dolor, accusantium deleniti consectetur cum repudiandae dicta molestias sapiente reiciendis soluta officia dolorem suscipit nulla tenetur.</p>
+    </section>
+    <div>
+        <p>
+            Back to top: <a href="#top">Back to Top</a>
+        </p>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1 id="top">External Links</h1>
+    <section>
+        <p>
+            Let's link to a Facebook Fan page I created for this course!
+            <!-- link to Facebook page WITH TARGET-->
+            <a href="http://www.facebook.com/CourseraWebDev" target="_blank" title="Like Our Page!">Course Facebook Page</a>
+        </p>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1>Internal Links</h1>
+    <section>
+        We can link to a file in the same directory as this HTML file like this:
+        <a href="same-directory.html" title="same dir link">Linking to a file in the same directory</a>
+        <a href="same-directory.html" title="same dir link">
+            <div> DIV Linking to a file in the same directory</div>
+        </a>
+    </section>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1>Don't be afraid to be &lt;then a 100% success &amp; &gt;more:</h1>
+    <p>
+        &quot;It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory&nbsp;nor&nbsp;defeat.&quot;
+    </p>
+    <p>Theodor Roosevelt 1910 &copy; Copyright</p>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1>Ordered list</h1>
+    <div>
+        Oreo cookie eating procedure:
+        <ol>
+            <li>Open box</li>
+            <li>Take out cookie</li>
+            <li>Make a Double Oreo
+                <ol>
+                    <li>Peel off the top part</li>
+                    <li>Place another cookie in the middle</li>
+                    <li>Put back the top part</li>
+                </ol>
+            </li>
+            <li>Enjoy!</li>
+        </ol>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1>Unordered list</h1>
+    <div>
+        My typical dinner shopping list:
+        <ul>
+            <li>Milk</li>
+            <li>Donuts</li>
+            <li>Cookies
+                <ul>
+                    <li>Chocolate</li>
+                    <li>Sugar</li>
+                    <li>Peanut Butter</li>
+                </ul>
+            </li>
+            <li>Pepto Bismol</li>
+        </ul>
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <header>
+        header element - Some header information goes here. Usually consists of company logo, some tag line, etc. Sometimes, navigation is contained in the header as well.
+        <nav>nav (short for navigation) element - Usually contains links to different parts of the web site.</nav>
+    </header>
+    <h1>Main Heading of the Page (hard not to have it)</h1>
+    <section>
+        Section 1
+        <article>Article 1</article>
+        <article>Article 2</article>
+        <article>Article 3</article>
+    </section>
+    <section>
+        Section 2
+        <article>Article 4</article>
+        <article>Article 5</article>
+        <article>Article 6</article>
+        <div>Regular DIV element</div>
+    </section>
+    <aside>
+        ASIDE - Some information that relates to the main topic, i.e., related posts.
+    </aside>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <h1>This is the Main Heading</h1>
+    <h2>Subheading 2</h2>
+    <h3>Subheading 3</h3>
+    <h4>Subheading 4</h4>
+    <h5>Subheading 5</h5>
+    <h6>Subheading 6</h6>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <div>*** DIV 1: Some content here ***</div>
+    <div>*** DIV 2: Following right after div 1 ***</div>
+    <span>*** SPAN 1: Following right after div 2 ***</span>
+    <div>
+        *** DIV 3: Following right after span 1
+        <span>*** SPAN 2: INSIDE div 3 ***</span> Continue content of div 3 ***
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------ -->
+    <hr>
+    <div>Dear all,
+        <span>I took this really cool course
+	</span></div>
+    <span>on Coursera.org. I think it's
+	my favorite course I've EVER taken!
+	Here is the URL for it:
+	</span>
+    <a href="...">HTML, CSS and JS for Web Developers</a>
+    <div>
+        Does anyone know how I can give this course 6 out of 5 stars?
+    </div>
+    <div>
+        Thank you, -Yaakov.... I mean a random student! Definitely not Yaakov.
+    </div>
+    <footer>
+        <hr>
+        <p style="text-align: center;" onclick="alert('EMAILING US IS USELESS');">
+            Tech Support: yeah.right@server-is-down.com
+        </p>
+    </footer>
 </body>
+
 </html>
