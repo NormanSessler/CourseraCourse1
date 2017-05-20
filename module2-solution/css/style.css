@@ -1,77 +1,81 @@
 /********** Base styles **********/
 
+/*	this applies to every element  */
 * {
+	/*	assure the size of an element is calculated including
+		the paading, margin etc.  */
     box-sizing: border-box;
+    /*	remove all browser predefined margins and padding: ;*/
     margin: 0px;
     padding: 0px;
 }
-
+/*	this is the "Our Menu headline"	*/
 h1 {
+	/*	give it some margin, center it and make it 75% bigger 
+		than standard font  */
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
     font-size: 175%;
 }
-
+/*	this is the section headline  */
 h4 {
-	/*position: absolute;
-	top: 0;
-	right: 0;*/
+	/*	put the headline in the upper right corner  */
 	position: relative;
 	top: -0.07em;
 	right: -0.07em;
 	float:right;
 
+	/*	give it a flexible width the keeps the text insinde at all zoom levels
+		I know the border should be 1px, but 1.5px looks better ;-)
+		make the font 25% bigger than standard font  */
 	width: 5em;
     border-radius: 3px;
 	border: 1.5px solid black;
 	text-align: center;
     font-size: 125%;
 }
-
+/*	give a seperate color to every section headline  */
 h4.bg_pink {
 	background-color: #FF9C99;
 	color: black;
 }
-
 h4.bg_red {
 	background-color: #FF3B08;
 	color: white;
 }
-
 h4.bg_yellow {
 	background-color: #EBE085;
 	color: black;
 }
-
+/*	I had to put the section text/content in this div so it 
+	will not float around the headline */
 section div {
-	clear:both;
+	/*	clear because the section headline is floating right
+		and I want the text not to float  */
+	clear:right;
 	padding: 0.5em;
 }
-
+/*	the section with the headline and the Lorem Ipsum text  */
 section {
-	/*to be a relative element for the h4 to compare*/
-	position: relative;
-
+	/*	give it some gray background color and white font
+		some nice looking round borders and relative width  */
     background-color: #888888;
+    color: white;
+    font-family: Helvetica;
     border-radius: 3px;
     border: 1.5px solid black;
     width: 100%;
-    /*padding: 0.5em;*/
-    font-family: Helvetica;
-    color: white;
 }
-
+/*	this div holds the section and gives some relative 
+	padding/distance between them, for every zoom level  */
 div.column {
 	padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1em;
     padding-right: 1em;
-    align-items: center;
 }
-
-/* Simple Responsive Framework. */
-
+/*	Simple Responsive Framework.  */
 div.row {
 	width: 100%;
 	padding-left: 1em;
