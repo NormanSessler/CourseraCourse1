@@ -9,6 +9,10 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    text-align: justify;
+}
 /*	this is the "Our Menu headline"	*/
 h1 {
 	/*	give it some margin, center it and make it 75% bigger 
@@ -62,7 +66,6 @@ section {
 		some nice looking round borders and relative width  */
     background-color: #888888;
     color: white;
-    font-family: Helvetica;
     border-radius: 3px;
     border: 1.5px solid black;
     width: 100%;

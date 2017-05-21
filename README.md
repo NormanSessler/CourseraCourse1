@@ -1,7 +1,5 @@
 ## Welcome to GitHub Pages
 
-Klick here for the [module2 assignment solution](https://normansessler.github.io/Coursera_HTML_CSS_JS/module2-solution/index.html)
-
 You can use the [editor on GitHub](https://github.com/NormanSessler/CourseraCourse1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
