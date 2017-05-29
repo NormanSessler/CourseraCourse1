@@ -1,5 +1,5 @@
 # Projects
-module2(https://normansessler.github.io/Coursera_HTML_CSS_JS/module2-solution/index.html)
+[module2](https://normansessler.github.io/Coursera_HTML_CSS_JS/module2-solution/index.html)
 module3(https://normansessler.github.io/Coursera_HTML_CSS_JS/module3-solution/index.html)
 
 ## Welcome to GitHub Pages
