@@ -4,12 +4,12 @@
 /*  this applies to every element  */
 
 * {
-    /*  assure the size of an element is calculated including
+	/*  assure the size of an element is calculated including
 		the paading, margin etc.  */
-    box-sizing: border-box;
-    /*  remove all browser predefined margins and padding: ;*/
-    margin: 0px;
-    padding: 0px;
+	box-sizing: border-box;
+	/*  remove all browser predefined margins and padding: ;*/
+	margin: 0px;
+	padding: 0px;
 }
 
 
@@ -17,73 +17,112 @@
 	of the screen  */
 
 html {
-    /*background-color: yellow;*/
-    /*overflow-y:hidden;*/
-    overflow-x: hidden;
+	/*background-color: yellow;*/
+	/*overflow-y:hidden;*/
+	overflow-x: hidden;
 }
 
 body {
-    /*font-family: 'Noto Sans', Helvetica, sans-serif;*/
-    font-family: 'Oxygen', sans-serif;
-    text-align: justify;
+	/*font-family: 'Noto Sans', Helvetica, sans-serif;*/
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Oxygen', sans-serif;
+	text-align: justify;
+	/*background-color: #ffece6;*/
+	background-color: #eeece6;
 }
 
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #ccdccc;
-    border-radius: 0;
-    border: 0;
-    /*display: flex;*/
-    /*align-content: flex-start;*/
-    /*-webkit-align-content: flex-start;*/
-    /*align-items: flex-end;*/
-    border-bottom: 1.5px solid #889888;
+	/*background-color: #99bb99;*/
+	background-color: #8fc190;
+	border-radius: 0;
+	border: 0;
+	/*display: flex;*/
+	/*align-content: flex-start;*/
+	/*-webkit-align-content: flex-start;*/
+	/*align-items: flex-end;*/
+	border-bottom: 1.5px solid #889888;
+	/*min-height: 4em;*/
 }
 
 .navbar-brand {
-    padding: 0.2em;
-    position: absolute;
-    left: 2.5em;
-    /*border: 1px solid black;*/
+	padding: 0.2em;
+	position: absolute;
+	left: 2.5em;
+	/*border: 1px solid black;*/
 }
 
 
 /* Brand name */
 
 .navbar-brand h1 {
-    /*font-family: 'Lora', serif;*/
-    /*color: #557c3e;*/
-    font-size: 1.5em;
-    /*text-transform: uppercase;*/
-    font-weight: bold;
-    /*text-shadow: 1px 1px 1px #222;*/
-    margin: 0.1em;
-    padding: 0.1em;
-    /*line-height: .75;*/
-    /*border: 1px solid black;*/
+	/*font-family: 'Lora', serif;*/
+	/*color: #557c3e;*/
+	font-size: 1.5em;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	/*text-shadow: 1px 1px 1px #222;*/
+	margin: 0.1em;
+	padding: 0.1em;
+	/*line-height: .75;*/
+	/*border: 1px solid black;*/
 }
 
 .navbar-brand a:hover,
 .navbar-brand a:focus {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .navbar-header button.navbar-toggle,
 .navbar-header .icon-bar {
-    border: 0.11em solid;
+	border: 0.11em solid;
 }
 
 .navbar-header .icon-bar {
-    border: 0.11em solid;
+	border: 0.11em solid;
 }
 
 .navbar-header button.navbar-toggle {
-    /*clear: both;*/
-    /*margin-top: -30px;*/
+	/*clear: both;*/
+	/*margin-top: -30px;*/
+	color: #889888;
+	background-color: #8fc190;
+}
+.navbar-header button.navbar-toggle:hover {
+	/*clear: both;*/
+	/*margin-top: -30px;*/
+	color: #889888;
+	background-color: #669666;
 }
 
+.navbar-collapse #nav-list {
+	/*border-color: yellow;*/
+	/*background-color: yellow;*/
+	margin-top: -2px;
+	margin-bottom: -2px;
+	overflow-x: hidden;
+}
+
+.nav > li {
+	border-bottom: 1px solid #889888;
+}
+.nav > li:nth-child(1) {
+	/*border-top: 4px solid #889888;*/
+}
+.nav > li:nth-child(3) {
+	border: 0;
+}
+
+#collapsable-nav li > a {
+	color: white;
+	font-weight: 300;
+}
+#collapsable-nav li > a:hover {
+	/*color: black;*/
+	background-color: #669666;
+}
 
 /* END HEADER */
 
@@ -91,51 +130,51 @@ body {
 /*  this is the "Our Menu headline" */
 
 h2 {
-    /*  give it some margin, center it and make it 75% bigger 
+	/*  give it some margin, center it and make it 75% bigger 
 		than standard font  */
-    margin-top: 1em;
-    margin-bottom: 1em;
-    /*text-align: center;*/
-    font-size: 175%;
-    /*border: 1px solid black;*/
+	margin-top: 1em;
+	margin-bottom: 1em;
+	/*text-align: center;*/
+	font-size: 175%;
+	/*border: 1px solid black;*/
 }
 
 
 /*  this is the section headline  */
 
 h4 {
-    /*  put the headline in the middle */
-    position: relative;
-    top: 0em;
-    left: 50%;
-    width: 5em;
-    margin-left: -2.5em;
-    /*half the size of width*/
-    /*position: relative;*/
-    /*top: -0.07em;*/
-    /*right: -1.07em;*/
-    /*float: right;*/
-    border-radius: 3px;
-    border: 1.5px solid black;
-    font-size: 125%;
+	/*  put the headline in the middle */
+	position: relative;
+	top: 0em;
+	left: 50%;
+	width: 5em;
+	margin-left: -2.5em;
+	/*half the size of width*/
+	/*position: relative;*/
+	/*top: -0.07em;*/
+	/*right: -1.07em;*/
+	/*float: right;*/
+	border-radius: 3px;
+	border: 1.5px solid black;
+	font-size: 125%;
 }
 
 
 /*  give a seperate color to every section headline  */
 
 h4.bg_pink {
-    background-color: #FF9C99;
-    color: black;
+	background-color: #FF9C99;
+	color: black;
 }
 
 h4.bg_red {
-    background-color: #FF3B08;
-    color: white;
+	background-color: #FF3B08;
+	color: white;
 }
 
 h4.bg_yellow {
-    background-color: #EBE085;
-    color: black;
+	background-color: #EBE085;
+	color: black;
 }
 
 
@@ -143,25 +182,25 @@ h4.bg_yellow {
 	will not float around the headline */
 
 section div {
-    /*  clear because the section headline is floating right
+	/*  clear because the section headline is floating right
 		and I want the text not to float  */
-    clear: both;
-    padding: 0.5em;
-    /*border: 1px solid black;*/
+	clear: both;
+	padding: 0.5em;
+	/*border: 1px solid black;*/
 }
 
 
 /*  the section with the headline and the Lorem Ipsum text  */
 
 section {
-    /*  give it some gray background color and white font
+	/*  give it some gray background color and white font
 		some nice looking round borders and relative width  */
-    background-color: #888888;
-    color: white;
-    border-radius: 3px;
-    border: 1.5px solid black;
-    width: 100%;
-    /*padding-top: 0em;*/
+	background-color: #888888;
+	color: white;
+	border-radius: 3px;
+	border: 1.5px solid black;
+	width: 100%;
+	/*padding-top: 0em;*/
 }
 
 
@@ -169,17 +208,17 @@ section {
 	padding/distance between them, for every zoom level  */
 
 div.column {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
-    /*border: 1px solid black;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	/*border: 1px solid black;*/
 }
 
 div.row {
-    /*float: right;*/
-    /*width: 100%;*/
-    padding-left: 2em;
-    padding-right: 2em;
-    /*border: 1px solid blue;*/
+	/*float: right;*/
+	/*width: 100%;*/
+	padding-left: 2em;
+	padding-right: 2em;
+	/*border: 1px solid blue;*/
 }
