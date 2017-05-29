@@ -4,249 +4,171 @@
 /*  this applies to every element  */
 
 * {
-    /*  assure the size of an element is calculated including
-        the paading, margin etc.  */
-    box-sizing: border-box;
-    /*  remove all browser predefined margins and padding: ;*/
-    margin: 0px;
-    padding: 0px;
+	/*  assure the size of an element is calculated including
+		the paading, margin etc.  */
+	box-sizing: border-box;
+	/*  remove all browser predefined margins and padding: ;*/
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
-    /*font-family: 'Noto Sans', Helvetica, sans-serif;*/
-    font-family: 'Oxygen', sans-serif;
-    text-align: justify;
+	/*font-family: 'Noto Sans', Helvetica, sans-serif;*/
+	font-family: 'Oxygen', sans-serif;
+	text-align: justify;
 }
+
+
+/** HEADER **/
+
+#header-nav {
+	background-color: #ccdccc;
+	border-radius: 0;
+	border: 0;
+	/*display: flex;*/
+	/*align-content: flex-start;*/
+	/*-webkit-align-content: flex-start;*/
+	/*align-items: flex-end;*/
+	border-bottom: 1.5px solid #889888;
+}
+
+.navbar-brand {
+	padding: 0.2em;
+	position: absolute;
+	left: 2.5em;
+	/*border: 1px solid black;*/
+}
+
+
+/* Brand name */
+
+.navbar-brand h1 {
+	/*font-family: 'Lora', serif;*/
+	/*color: #557c3e;*/
+	font-size: 1.5em;
+	/*text-transform: uppercase;*/
+	font-weight: bold;
+	/*text-shadow: 1px 1px 1px #222;*/
+	margin: 0.1em;
+	padding: 0.1em;
+	/*line-height: .75;*/
+	/*border: 1px solid black;*/
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+	border: 0.11em solid;
+}
+
+.navbar-header .icon-bar {
+	border: 0.11em solid;
+}
+
+.navbar-header button.navbar-toggle {
+	/*clear: both;*/
+	/*margin-top: -30px;*/
+}
+
+
+/* END HEADER */
 
 
 /*  this is the "Our Menu headline" */
 
-h1 {
-    /*  give it some margin, center it and make it 75% bigger 
-        than standard font  */
-    margin-top: 1em;
-    margin-bottom: 1em;
-    text-align: center;
-    font-size: 175%;
+h2 {
+	/*  give it some margin, center it and make it 75% bigger 
+		than standard font  */
+	margin-top: 1em;
+	margin-bottom: 1em;
+	/*text-align: center;*/
+	font-size: 175%;
+	/*border: 1px solid black;*/
 }
 
 
 /*  this is the section headline  */
 
 h4 {
-    /*  put the headline in the upper right corner  */
-    position: relative;
-    top: -0.07em;
-    right: -0.07em;
-    float: right;
-    /*  give it a flexible width the keeps the text insinde at all zoom levels
-        I know the border should be 1px, but 1.5px looks better ;-)
-        make the font 25% bigger than standard font  */
-    width: 5em;
-    border-radius: 3px;
-    border: 1.5px solid black;
-    text-align: center;
-    font-size: 125%;
+	/*  put the headline in the middle */
+	position: relative;
+	top: 0em;
+	left: 50%;
+	width: 5em;
+	margin-left: -2.5em; /*half the size of width*/
+	/*position: relative;*/
+	/*top: -0.07em;*/
+	/*right: -1.07em;*/
+	/*float: right;*/
+	border-radius: 3px;
+	border: 1.5px solid black;
+	font-size: 125%;
 }
 
 
 /*  give a seperate color to every section headline  */
 
 h4.bg_pink {
-    background-color: #FF9C99;
-    color: black;
+	background-color: #FF9C99;
+	color: black;
 }
 
 h4.bg_red {
-    background-color: #FF3B08;
-    color: white;
+	background-color: #FF3B08;
+	color: white;
 }
 
 h4.bg_yellow {
-    background-color: #EBE085;
-    color: black;
+	background-color: #EBE085;
+	color: black;
 }
 
 
 /*  I had to put the section text/content in this div so it 
-    will not float around the headline */
+	will not float around the headline */
 
 section div {
-    /*  clear because the section headline is floating right
-        and I want the text not to float  */
-    clear: right;
-    padding: 0.5em;
+	/*  clear because the section headline is floating right
+		and I want the text not to float  */
+	clear: both;
+	padding: 0.5em;
+	/*border: 1px solid black;*/
 }
 
 
 /*  the section with the headline and the Lorem Ipsum text  */
 
 section {
-    /*  give it some gray background color and white font
-        some nice looking round borders and relative width  */
-    background-color: #888888;
-    color: white;
-    border-radius: 3px;
-    border: 1.5px solid black;
-    width: 100%;
+	/*  give it some gray background color and white font
+		some nice looking round borders and relative width  */
+	background-color: #888888;
+	color: white;
+	border-radius: 3px;
+	border: 1.5px solid black;
+	width: 100%;
+	/*padding-top: 0em;*/
 }
 
 
 /*  this div holds the section and gives some relative 
-    padding/distance between them, for every zoom level  */
+	padding/distance between them, for every zoom level  */
 
 div.column {
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 1em;
-    padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	/*border: 1px solid black;*/
 }
-
-/*  Simple Responsive Framework.  */
 
 div.row {
-    width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-
-/********** Desktop devices only **********/
-
-@media (min-width: 992px) {
-    .col-desktop-1,.col-desktop-2, .col-desktop-3, .col-desktop-4, .col-desktop-5, .col-desktop-6, .col-desktop-7, .col-desktop-8, .col-desktop-9, .col-desktop-10, .col-desktop-11, 
-    .col-desktop-12 {
-        float: left;
-        /*border: 1px solid yellow;*/
-    }
-    .col-desktop-1 {
-        width: 8.33%;
-    }
-    .col-desktop-2 {
-        width: 16.66%;
-    }
-    .col-desktop-3 {
-        width: 25%;
-    }
-    .col-desktop-4 {
-        width: 33.33%;
-    }
-    .col-desktop-5 {
-        width: 41.66%;
-    }
-    .col-desktop-6 {
-        width: 50%;
-    }
-    .col-desktop-7 {
-        width: 58.33%;
-    }
-    .col-desktop-8 {
-        width: 66.66%;
-    }
-    .col-desktop-9 {
-        width: 74.99%;
-    }
-    .col-desktop-10 {
-        width: 83.33%;
-    }
-    .col-desktop-11 {
-        width: 91.66%;
-    }
-    .col-desktop-12 {
-        width: 100%;
-    }
-}
-
-
-/********** Tablet devices only **********/
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .col-tablet-1, .col-tablet-2, .col-tablet-3, .col-tablet-4, .col-tablet-5, .col-tablet-6, .col-tablet-7, .col-tablet-8, .col-tablet-9, .col-tablet-10, .col-tablet-11, 
-    .col-tablet-12 {
-        float: left;
-        /*border: 1px solid green;*/
-    }
-    .col-tablet-1 {
-        width: 8.33%;
-    }
-    .col-tablet-2 {
-        width: 16.66%;
-    }
-    .col-tablet-3 {
-        width: 25%;
-    }
-    .col-tablet-4 {
-        width: 33.33%;
-    }
-    .col-tablet-5 {
-        width: 41.66%;
-    }
-    .col-tablet-6 {
-        width: 50%;
-    }
-    .col-tablet-7 {
-        width: 58.33%;
-    }
-    .col-tablet-8 {
-        width: 66.66%;
-    }
-    .col-tablet-9 {
-        width: 74.99%;
-    }
-    .col-tablet-10 {
-        width: 83.33%;
-    }
-    .col-tablet-11 {
-        width: 91.66%;
-    }
-    .col-tablet-12 {
-        width: 100%;
-    }
-}
-
-
-/********** Mobile devices only **********/
-
-@media (max-width: 767px) {
-    .col-mobile-1, .col-mobile-2, .col-mobile-3, .col-mobile-4, .col-mobile-5, .col-mobile-6, .col-mobile-7, .col-mobile-8, .col-mobile-9, .col-mobile-10, .col-mobile-11,
-    .col-mobile-12 {
-        float: left;
-        /*border: 1px solid blue;*/
-    }
-    .col-mobile-1 {
-        width: 8.33%;
-    }
-    .col-mobile-2 {
-        width: 16.66%;
-    }
-    .col-mobile-3 {
-        width: 25%;
-    }
-    .col-mobile-4 {
-        width: 33.33%;
-    }
-    .col-mobile-5 {
-        width: 41.66%;
-    }
-    .col-mobile-6 {
-        width: 50%;
-    }
-    .col-mobile-7 {
-        width: 58.33%;
-    }
-    .col-mobile-8 {
-        width: 66.66%;
-    }
-    .col-mobile-9 {
-        width: 74.99%;
-    }
-    .col-mobile-10 {
-        width: 83.33%;
-    }
-    .col-mobile-11 {
-        width: 91.66%;
-    }
-    .col-mobile-12 {
-        width: 100%;
-    }
+	/*float: right;*/
+	/*width: 100%;*/
+	padding-left: 2em;
+	padding-right: 2em;
+	/*border: 1px solid blue;*/
 }

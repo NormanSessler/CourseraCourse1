@@ -3,44 +3,113 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Assignment Solution for Module 2</title>
+	<title>Assignment Solution for Module 3</title>
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-  </head>
+	<link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<h1>Our Menu</h1>
+	<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+					<div class="navbar-brand">
+						<a href="index.html"><h1>Food, LLC</h1></a>
+					</div>
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<!-- screen reader only -->
+						<span class="sr-only">Toggle navigation</span>
+						<!-- this creates the three dashes in the dropdown menu square -->
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+
+				<!-- #nav-list -->
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right">
+						<!-- <li class="visible-xs active">
+							<a href="index.html">
+								<span class="glyphicon glyphicon-home"></span> Home</a>
+						</li> -->
+						<li class="visible-xs text-center active">
+							<a href="#section1">
+								<br class="hidden-xs">Chicken
+							</a>
+						</li>
+						<li class="visible-xs text-center active">
+							<a href="#section2">
+								<br class="hidden-xs">Beef
+							</a>
+						</li>
+						<li class="visible-xs text-center active">
+							<a href="#section3">
+								<br class="hidden-xs">Sushi
+							</a>
+						</li>
+					</ul>
+				</div>
+				<!-- .collapse .navbar-collapse -->
+			</div>
+			<!-- .container -->
+		</nav>
+		<!-- #header-nav -->
+	</header>
+
+	<h2 class="text-center">Our Menu</h2>
 
 	<div class="row">
-		<div class="col-desktop-4 col-tablet-6 col-mobile-12 column">
-			<section>
-				<h4 class="bg_pink">Chicken</h4>
+		<!-- <div class="col-desktop-4 col-tablet-6 col-mobile-12 column"> -->
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 column">
+			<section id="section1">
+				<h4 class="bg_pink text-center">Chicken</h4>
+				<!-- <h4 class="text-center">Chicken</h4> -->
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p class="visible-xs">
+						(End of Chicken section) <a href="#">Back to Top</a>
+					</p>
 				</div>
 			</section>
 		</div>
-		<div class="col-desktop-4 col-tablet-6 col-mobile-12 column">
-			<section>
-				<h4 class="bg_red">Beef</h4>
+		<!-- <div class="col-desktop-4 col-tablet-6 col-mobile-12 column"> -->
+		<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 column">
+			<section id="section2">
+				<h4 class="bg_red text-center">Beef</h4>
+				<!-- <h4 class="text-center">Beef</h4> -->
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p class="visible-xs">
+						(End of Beef section) <a href="#">Back to Top</a>
+					</p>
 				</div>
 			</section>
 		</div>
-		<div class="col-desktop-4 col-tablet-12 col-mobile-12 column">
-			<section>
-				<h4 class="bg_yellow">Sushi</h4>
+		<!-- <div class="col-desktop-4 col-tablet-12 col-mobile-12 column"> -->
+		<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 column">
+			<section id="section3">
+				<h4 class="bg_yellow text-center">Sushi</h4>
+				<!-- <h4 class="text-center">Sushi</h4> -->
 				<div>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					<p class="visible-xs">
+						(End of Sushi section) <a href="#">Back to Top</a>
+					</p>
 				</div>
 			</section>
 		</div>
 	</div>
 
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
