@@ -1,3 +1,7 @@
+# Projects
+- [module2](https://normansessler.github.io/Coursera_HTML_CSS_JS/module2-solution/index.html) (https://normansessler.github.io/Coursera_HTML_CSS_JS/module2-solution/index.html)
+- [module3](https://normansessler.github.io/Coursera_HTML_CSS_JS/module3-solution/index.html) (https://normansessler.github.io/Coursera_HTML_CSS_JS/module3-solution/index.html)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/NormanSessler/CourseraCourse1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
