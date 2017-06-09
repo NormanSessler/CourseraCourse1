@@ -9,6 +9,10 @@
 
 (https://normansessler.github.io/Coursera_HTML_CSS_JS/module4-solution/index.html)
 
+- [module5](https://normansessler.github.io/Coursera_HTML_CSS_JS/module5-solution/index.html) 
+
+(https://normansessler.github.io/Coursera_HTML_CSS_JS/module5-solution/index.html)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/NormanSessler/CourseraCourse1/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
